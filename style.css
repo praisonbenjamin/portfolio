@@ -1,0 +1,85 @@
+body{ /* style applied for entire body */
+   background: #484d5c;
+}
+header { /*style header container*/
+  text-align: left;
+  color: white;
+  background:#001524;
+  height: auto; /*height and width set to auto to adjust to screens*/
+  width: auto;
+}
+
+h1{ /*style main heading*/
+  font-family: palatino;
+  padding-top: 90px;
+  box-shadow: 2px;
+  font-size: 100px;
+}
+.title{ /* title class used to style just the job title*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 90px;
+  font-size: 50px;
+}
+
+h1, .title { /*group h1 and title class*/
+  margin-left: 15%;
+}
+main { /*style main container*/
+  text-align: center;
+  background: seashell;
+  width: 70%;
+  height: 70%;
+  padding: 40px;
+  margin: auto;
+}
+.about{ /*about class used to style about paragraphs*/
+  text-align: center;
+  margin: 0 10% 5% 10%;
+}
+/* unused class
+.margin-bottom{
+  margin-bottom: 10%;
+}
+*/
+footer{ /*style footer*/
+  text-align: center;
+  background: #240C04;
+  color: aliceblue;
+  padding: 5%
+}
+.list-inside li{ /*bring the bullet styles inside for list items*/
+  list-style-position: inside;
+  font-size: 27px;
+}
+.left-align{ /*class used to align content left*/
+  text-align: left;
+  margin-left: 30%;
+}
+h2{ /*style level two sub-headings*/
+  font-size: 42px;
+}
+p{ /*style paragraphs*/
+  font-size: 24px;
+}
+nav { /*style navigation pane*/
+  padding: 40px;
+  margin: 0 0 0 0;
+  width: 30%;
+  float: right;
+  text-align: right;
+  color: #fff;
+  font-size: 32px;
+  background: seashell;
+} /* tried to style the navigation pane further, but found it useless*/
+header: before, 
+nav:before {
+  content: " ";
+  display: table;
+  clear: both;
+}  */
+
+/*change link colors depending on condition*/
+a:link    { color: black;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: blue;  }
