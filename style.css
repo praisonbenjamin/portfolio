@@ -32,6 +32,9 @@ main { /*style main container*/
   padding: 40px;
   margin: auto;
 }
+.praison{
+   width= 50%;
+}
 .about{ /*about class used to style about paragraphs*/
   text-align: center;
   margin: 0 10% 5% 10%;
